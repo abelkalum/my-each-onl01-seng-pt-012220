@@ -14,11 +14,13 @@ def my_each(words)
 end
 
 my_each(tas) do |ta|
-  if words.length < 
+  if tas.length < 
     times_called = 0
 
     my_each(tas) do |ta|
       times_called += 1
+    end
+    
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
