@@ -11,11 +11,10 @@ def my_each(words)
   else
     "This block should not run!"
   end
- end
 end 
 
 def my_each(tas) do |ta|
-  if tas.length < 
+  if tas.length < orginal-length
     times_called = 0
 
     my_each(tas) do |ta|
@@ -23,5 +22,4 @@ def my_each(tas) do |ta|
     end
     "now we are back in the method"
    end
-  end
 end
