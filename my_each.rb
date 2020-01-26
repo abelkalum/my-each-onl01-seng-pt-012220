@@ -13,7 +13,7 @@ def my_each(words)
   end
 end
 
-hello_t(["Tim", "Tom", "Jim"]) do |name|
+my_each(tas) do |ta|
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
