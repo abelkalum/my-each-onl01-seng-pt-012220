@@ -21,4 +21,6 @@ def my_each(tas) do |ta|
       times_called += 1
     end
     "now we are back in the method"
+   end
+  end
 end
