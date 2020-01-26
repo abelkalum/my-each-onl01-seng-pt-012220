@@ -14,7 +14,7 @@ def my_each(words)
 end
 
 my_each(tas) do |ta|
-  if 
+  if words.length < 
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
