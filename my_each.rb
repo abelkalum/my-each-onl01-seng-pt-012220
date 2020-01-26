@@ -20,8 +20,6 @@ my_each(tas) do |ta|
     my_each(tas) do |ta|
       times_called += 1
     end
-    
-  if name.start_with?("T")
-    puts "Hi, #{name}"
+    "now we are back in the method"
   end
 end
