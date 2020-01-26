@@ -14,6 +14,7 @@ def my_each(words)
 end
 
 my_each(tas) do |ta|
+  if 
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
