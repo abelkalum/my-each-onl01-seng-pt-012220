@@ -1,3 +1,14 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(words)
+  if block_given?
+    counter = 0
+    
+    while i < words.length
+      yield(array[i])
+      counter+=1
+    end
+    
+    words
+  else
+    puts "This block should not run!"
+  end
 end
