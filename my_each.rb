@@ -13,7 +13,7 @@ def my_each(words)
   end
 end
 
-my_each(tas) do |ta|
+def my_each(tas) do |ta|
   if tas.length < 
     times_called = 0
 
@@ -21,5 +21,4 @@ my_each(tas) do |ta|
       times_called += 1
     end
     "now we are back in the method"
-  end
 end
